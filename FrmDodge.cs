@@ -27,7 +27,7 @@ namespace TestingAgain
             //get the graphics used to paint on the panel control
             g = e.Graphics;
             //call the Planet class's DrawPlanet method to draw the image planet1 
-            planet1.drawPlanet(g);
+            planet1.DrawPlanet(g);
 
         }
     }

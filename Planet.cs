@@ -22,11 +22,11 @@ namespace TestingAgain
             y = 10;
             width = 20;
             height = 20;
-            planetImage = Image.FromFile("planet1.png");
+            planetImage = Properties.Resources.planet1;
             planetRec = new Rectangle(x, y, width, height);
         }
         // Methods for the Planet class
-        public void drawPlanet(Graphics g)
+        public void DrawPlanet(Graphics g)
         {
             g.DrawImage(planetImage, planetRec);
         }
