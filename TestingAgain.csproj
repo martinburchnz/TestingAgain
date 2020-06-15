@@ -125,16 +125,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\alien1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\planet1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\alien1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\planet1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
