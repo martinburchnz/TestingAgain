@@ -38,6 +38,7 @@
             this.PnlGame.Name = "PnlGame";
             this.PnlGame.Size = new System.Drawing.Size(500, 400);
             this.PnlGame.TabIndex = 0;
+            this.PnlGame.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlGame_Paint);
             // 
             // FrmDodge
             // 
@@ -46,6 +47,7 @@
             this.ClientSize = new System.Drawing.Size(634, 461);
             this.Controls.Add(this.PnlGame);
             this.Name = "FrmDodge";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dodge";
             this.ResumeLayout(false);
 

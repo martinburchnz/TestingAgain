@@ -25,6 +25,11 @@ namespace TestingAgain
             planetImage = Image.FromFile("planet1.png");
             planetRec = new Rectangle(x, y, width, height);
         }
+        // Methods for the Planet class
+        public void drawPlanet(Graphics g)
+        {
+            g.DrawImage(planetImage, planetRec);
+        }
 
     }
 }
